@@ -8,16 +8,7 @@ namespace OOPSConcept
     {
         public int PenId { get; set; }
         public string PenType { get; set; }
-        public string PenColor { get; set; }
-
-        //public void penInfo()
-        //{
-        //    Console.WriteLine($"Pen Id is {PenId}, \n"+ 
-        //        $"Pen Type is {PenType}, \n"+
-        //        $"Pen Color is {PenColor}, \n" +
-        //        $"Pen Width is {PenWidth}");
-        //}
-
+        public string PenColor { get; set; }     
         private int PenWidth { get; set; }
         private int PenHeight { get; set; }
 
