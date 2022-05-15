@@ -14,11 +14,13 @@ namespace OOPSConcept
         }
     }
 
+    // Interface - In Interface we can add methods, properties but can define fields
     interface VehicleProperties
     {
         public void CarName();
     }
 
+    //This is the example of multiple inheritance through interface
     class BMW : Vehicle, VehicleProperties
     {
         public void CarName()
