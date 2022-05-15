@@ -65,6 +65,28 @@ namespace OOPSConcept
 
             classFunctions.subjectDetails(subject1);
 
+            // We cannot create instance of an abstract class
+            //Animal animal = new Animal();
+
+            //Create object of non abstract class
+            //Through Parent class object you can access all abstract class and non-abstract class methods of Parent 
+            Animal dog = new Dog();
+            dog.walk();
+            dog.sleep();
+            dog.eat();
+
+            //If you create Dog class object then you can call non-overriden method
+            Dog dog1 = new Dog();
+            dog1.move();
+            
+            BMW vehicle1 = new BMW();
+            vehicle1.brand();
+            vehicle1.CarName();
+            vehicle1.typeOfVehicle();
+
+
+            
+
         }
 
         //If method is not static then we need to create Class Object to call it
@@ -76,6 +98,5 @@ namespace OOPSConcept
                 $"Book Price is {book1.getBookPrice()}, \n" +
                 $"Total Number Of Books Available are {book1.getNumberOfBooks()}\n");
         }
-
     }
 }
