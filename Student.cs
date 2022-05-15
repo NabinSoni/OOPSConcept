@@ -6,7 +6,7 @@ namespace OOPSConcept
 {
 
     // Inheritance - Single Level
-    internal class Student : Book
+    public class Student : Book
     {
         public int StudentId { get; set; }
         public string StudentName { get; set; }

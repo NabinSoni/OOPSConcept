@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOPSConcept
 {
-    internal class Subject : Student
+    public class Subject : Student
     {
         public Subject(int StudentId, string StudentName, int StudentRollNo, float StudentMarks) : base(StudentId, StudentName, StudentRollNo, StudentMarks)
         {

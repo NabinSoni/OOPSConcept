@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOPSConcept
 {
-    internal class Pen
+    public class Pen
     {
         public int PenId { get; set; }
         public string PenType { get; set; }
