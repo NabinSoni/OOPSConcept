@@ -106,6 +106,7 @@ namespace OOPSConcept
                $"6) Number of Books Available: {student1.getNumberOfBooks()}\n");
         }
 
+        //Here by creating object of Subject CLass, we can access both Student and Book class properties by Multi-Level Inheritance
         public static void subjectDetails(Subject subject1)
         {
             Console.WriteLine("Subject Details are:\n" +
